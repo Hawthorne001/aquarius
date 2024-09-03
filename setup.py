@@ -20,12 +20,12 @@ with open("CHANGELOG.md") as history_file:
 install_requirements = [
     "coloredlogs==15.0.1",
     "Flask==3.0.0",
-    "Flask-Cors==4.0.0",
+    "Flask-Cors==5.0.0",
     "flask-swagger==0.2.14",
     "flask-swagger-ui==4.11.1",
     "Jinja2>=2.10.1",
     "requests>=2.21.0",
-    "gunicorn==21.2.0",
+    "gunicorn==22.0.0",
     "elasticsearch==8.10.1",
     "PyYAML==6.0.1",
     "pytz==2023.3.post1",
@@ -35,7 +35,7 @@ install_requirements = [
     "python-dateutil==2.8.2",
     "pyshacl==0.22.2",
     "gql==3.4.1",
-    "aiohttp==3.9.0",
+    "aiohttp==3.10.2",
 ]
 
 setup_requirements = ["pytest-runner==6.0.0"]
